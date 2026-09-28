@@ -1,0 +1,7 @@
+@media (min-width: 1000px) {
+  body.has-fc-design-template--split:not(.has-checkout-must-login-notice) div.woocommerce > #coupons_list,
+  body.has-fc-design-template--split:not(.has-checkout-must-login-notice) div.woocommerce .fc-wrapper > #coupons_list {
+    float: left;
+    width: calc(62.5% - var(--fluidcheckout--columns--gap, 50px));
+  }
+}

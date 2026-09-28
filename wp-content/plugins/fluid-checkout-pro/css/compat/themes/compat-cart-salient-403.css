@@ -1,0 +1,66 @@
+@media (max-width: 749px) {
+  body.theme-salient.woocommerce-cart .fc-content.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+  }
+}
+
+body.theme-salient .woocommerce ul#shipping_method .shipping-method__option input[type=radio] + .shipping-method__option-label span {
+  color: inherit;
+}
+
+body.theme-salient.woocommerce-cart .select2-container .select2-selection--single,
+body.theme-salient.woocommerce-cart .select2-container .select2-selection--single .select2-selection__rendered,
+body.theme-salient.woocommerce-cart .select2-container .select2-selection--single .select2-selection__arrow {
+  height: auto;
+}
+
+body.theme-salient.woocommerce-cart .select2-container .select2-selection--single .select2-selection__rendered {
+  line-height: calc(var(--fluidcheckout--field--height, 45.625px) - var(--fluidcheckout--field--border-width, 1px) * 2);
+}
+
+body.theme-salient.woocommerce-cart .fc-wrapper .wc-proceed-to-checkout .checkout-button:hover {
+  box-shadow: none !important;
+  transform: none;
+}
+
+body.theme-salient .fc-wrapper .cross-sells .cross-sells__item {
+  list-style: none;
+}
+
+body.theme-salient .fc-wrapper .cross-sells .cross-sells__item .product-name a {
+  background-image: none;
+}
+
+body.theme-salient .fc-wrapper table.cart {
+  font-size: 14px;
+}
+
+body.theme-salient .fc-wrapper table td .cart-item__element.cart-item__product-name a {
+  color: var(--nectar-accent-color);
+  background-image: none;
+}
+
+body.theme-salient .fc-wrapper table td .cart-item__element.cart-item__product-name a:hover {
+  color: inherit;
+}
+
+body.theme-salient .fc-wrapper .cart-item a.remove {
+  background-color: transparent !important;
+  font-size: 13px !important;
+  color: var(--fluidcheckout--color--grey, #7b7575) !important;
+}
+
+body.theme-salient .fc-wrapper .cart-item a.remove:hover {
+  background-color: transparent !important;
+  color: var(--fluidcheckout--color--error, #cc1818) !important;
+}
+
+body.theme-salient .fc-wrapper button[name=calc_shipping] {
+  margin-top: 0;
+}
+
+body.theme-salient .fc-wrapper .woocommerce-shipping-destination {
+  padding-bottom: 0;
+}

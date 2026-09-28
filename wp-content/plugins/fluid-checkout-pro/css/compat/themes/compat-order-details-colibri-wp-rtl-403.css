@@ -1,0 +1,92 @@
+body.theme-colibri-wp .fc-clearfix:before,
+body.theme-colibri-wp .fc-clearfix:after {
+  content: "";
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+body.theme-colibri-wp .woocommerce .fc-order-details-section[data-section-id=customer_information] .woocommerce-customer-details .fc-customer-details__title {
+  font-size: inherit;
+}
+
+body.theme-colibri-wp .woocommerce .fc-order-details-section[data-section-id=customer_information] address {
+  margin-bottom: 0;
+  padding: 0;
+  border: 0;
+}
+
+body.theme-colibri-wp .woocommerce .woocommerce-order-overview.order_details {
+  margin: 0 !important;
+}
+
+body.theme-colibri-wp .woocommerce .woocommerce-order-overview.order_details > li {
+  padding: 0 !important;
+  margin-bottom: 20px;
+}
+@media (min-width: 750px) {
+  body.theme-colibri-wp .woocommerce .woocommerce-order-overview.order_details > li {
+    margin-bottom: 0;
+    margin-left: 10px;
+  }
+}
+
+body.theme-colibri-wp .woocommerce .woocommerce-order-overview.order_details > li:last-of-type {
+  margin-bottom: 0;
+}
+
+body.theme-colibri-wp .woocommerce .woocommerce-bacs-bank-details ul.order_details {
+  margin: 0 !important;
+}
+
+body.theme-colibri-wp .woocommerce .woocommerce-bacs-bank-details .wc-bacs-bank-details li {
+  padding: 5px 0 !important;
+  margin: 0 !important;
+  border-left: 0;
+}
+
+body.theme-colibri-wp .woocommerce .fc-wrapper .fc-order-status-bar {
+  margin: 0;
+}
+@media (min-width: 550px) {
+  body.theme-colibri-wp .woocommerce .fc-wrapper .fc-order-status-bar {
+    margin-top: 10px;
+  }
+}
+
+body.theme-colibri-wp .content .h-section .woocommerce .fc-wrapper .fc-section-title,
+body.theme-colibri-wp .content .h-section .woocommerce .fc-wrapper .fc-subsection-title {
+  color: var(--fluidcheckout--color--dark-grey, #535156);
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+@media (min-width: 1000px) {
+  body.theme-colibri-wp .content .h-section .woocommerce .fc-wrapper .fc-section-title,
+  body.theme-colibri-wp .content .h-section .woocommerce .fc-wrapper .fc-subsection-title {
+    font-size: 15px;
+  }
+}
+
+body.theme-colibri-wp .woocommerce .fc-wrapper .fc-order-details-section ul:last-child {
+  margin-bottom: 0 !important;
+}
+
+body.theme-colibri-wp div.woocommerce .fc-wrapper .woocommerce-order-details {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-shadow: none;
+}
+
+html.colibri-wp-theme body.theme-colibri-wp .content .h-section .woocommerce-order .woocommerce-thankyou-order-received {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+html.colibri-wp-theme body.theme-colibri-wp .woocommerce-order .woocommerce-thankyou-order-failed,
+html.colibri-wp-theme body.theme-colibri-wp .woocommerce-order .fc-order-received-notice--alert {
+  margin-bottom: 0;
+}

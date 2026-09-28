@@ -1,0 +1,21 @@
+{
+    "great vibes": {
+        "normal": "great_vibes_normal_1e93dc078852ebde2feecede36ac4c57"
+    },
+    "noto serif": {
+        "italic": "D:\\laragon\\www\\dompdf_demo\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/noto_serif_italic_f4bb8aafc371d53b04ea7d6545f70ab0",
+        "500_italic": "D:\\laragon\\www\\dompdf_demo\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/noto_serif_500_italic_ad077fbf0ccfbd6bd20df299bb6cb3d4",
+        "600_italic": "D:\\laragon\\www\\dompdf_demo\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/noto_serif_600_italic_9f96a6bcfba66d9c53b0eb1668aef652",
+        "bold_italic": "D:\\laragon\\www\\dompdf_demo\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/noto_serif_bold_italic_ca355a3ddf2ccc3ecac528053aa8c4e8",
+        "500": "D:\\laragon\\www\\dompdf_demo\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/noto_serif_500_2cb7cfcc7b0d3e2f7557d67ee237cd2c",
+        "600": "D:\\laragon\\www\\dompdf_demo\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/noto_serif_600_bce5729c75a332679d6863c5332718ab",
+        "bold": "D:\\laragon\\www\\dompdf_demo\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/noto_serif_bold_af4ac55d1ee0e21b861cd0c772410d1d",
+        "800": "noto_serif_800_9ca14b391e1d2e7f85385dbc94e4ddfa"
+    },
+    "montserrat": {
+        "normal": "montserrat_normal_00833106404dc8458cdfb436c759f23d"
+    },
+    "tangerine": {
+        "normal": "tangerine_normal_19ce16c8d386f49ccf94be2beb5587b6"
+    }
+}

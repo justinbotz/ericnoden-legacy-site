@@ -1,0 +1,8 @@
+.product-details .pickup-location-field {
+  margin-top: 5px;
+}
+
+.product-details .pickup-location-field.pickup-location-cart-item-field {
+  width: 100%;
+  max-width: 100%;
+}

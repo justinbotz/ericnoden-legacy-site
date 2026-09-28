@@ -1,0 +1,38 @@
+body.theme-loobek .fc-wrapper .cross-sells .cross-sells__item {
+  list-style: none;
+}
+
+body.theme-loobek .fc-wrapper .cross-sells .product-details .product-add-to-cart .button.loading {
+  position: relative;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+@media (max-width: 1200px) {
+  body.theme-loobek .fc-wrapper .cross-sells .product-details .product-add-to-cart .button.loading {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+body.theme-loobek .fc-wrapper .cross-sells .product-details .product-add-to-cart .button.loading:before {
+  position: absolute;
+}
+
+body.theme-loobek .fc-wrapper table.cart tbody {
+  display: table-row-group;
+}
+
+body.theme-loobek .fc-wrapper table.cart thead {
+  border: 0 !important;
+}
+
+body.theme-loobek .woocommerce table.shop_table.woocommerce-cart-form__contents tr > * {
+  margin-left: 0;
+}
+
+@media (max-width: 767px) {
+  body.theme-loobek .woocommerce table.shop_table_responsive.cart tr {
+    display: table-row;
+    padding: 0;
+  }
+}

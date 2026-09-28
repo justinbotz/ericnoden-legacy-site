@@ -1,0 +1,13 @@
+body.theme-umea div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details tr {
+  border: 0 !important;
+  border-top: solid var(--fluidcheckout--order-summary--cell-border-width, 1px) var(--fluidcheckout--order-summary--cell-border-color, var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8))) !important;
+}
+
+body.theme-umea div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details tbody tr.order_item {
+  border-top: dashed var(--fluidcheckout--order-summary--cell-border-width--products, 1px) var(--fluidcheckout--order-summary--cell-border-color--products, var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8))) !important;
+}
+
+body.theme-umea div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details tfoot th::before,
+body.theme-umea div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details tfoot td::before {
+  display: none;
+}

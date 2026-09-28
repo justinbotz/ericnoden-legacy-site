@@ -1,0 +1,25 @@
+body.theme-woostify.woocommerce-cart.cart-page-layout-2 .woocommerce-cart-form {
+  width: 100%;
+}
+
+body.theme-woostify .fc-wrapper table.cart td.product-thumbnail {
+  display: flex !important;
+  justify-content: center;
+}
+
+body.theme-woostify .fc-wrapper .fc-cart-section[data-section-id=cart_items] .fc-cart-coupon-code-form {
+  float: left;
+}
+
+@media (max-width: 749px) {
+  body.theme-woostify .fc-wrapper table.cart td.product-name,
+  body.theme-woostify .fc-wrapper table.cart td.product-quantity {
+    text-align: right !important;
+  }
+}
+
+@media (min-width: 992px) {
+  body.theme-woostify .woocommerce-cart-form__contents .actions .coupon + [name=update_cart] {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,7 @@
+body.theme-kentha .fc-gift-options__message .fc-gift-options__message-text {
+  min-height: 0;
+}
+
+body.theme-kentha .woocommerce .fc-order-details-section[data-section-id=customer_information] address {
+  margin: 0;
+}

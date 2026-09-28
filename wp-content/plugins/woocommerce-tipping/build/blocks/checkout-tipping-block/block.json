@@ -1,0 +1,43 @@
+{
+  "name": "wpslash-tipping/checkout-actions-block",
+  "title": "Tipping for WooCommerce",
+  "apiVersion": 3,
+  "description": "Allow customers to add a Tip to their order.",
+  "category": "woocommerce",
+  "textdomain": "wpslash-tipping",
+  "supports": {
+    "align": true,
+    "color": true,
+    "anchor": true,
+    "html": false,
+    "layout": true,
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true
+    },
+    "spacing": {
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "padding": true,
+      "blockGap": [
+        "horizontal",
+        "vertical"
+      ]
+    }
+  },
+  "editorStyle": "wpslash-tipping-block-css",
+  "style": "wpslash-tipping-block-css",
+  "parent": [
+    "woocommerce/checkout-totals-block",
+    "woocommerce/checkout-order-summary-block",
+    "woocommerce/cart-totals-block"
+  ],
+  "attributes": {
+    "className": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

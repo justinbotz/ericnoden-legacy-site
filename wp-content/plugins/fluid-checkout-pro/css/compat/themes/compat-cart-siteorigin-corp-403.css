@@ -1,0 +1,24 @@
+body.theme-siteorigin-corp div.woocommerce form .form-row .select2-container--default .select2-selection--single {
+  border-color: var(--fluidcheckout--field--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8));
+}
+
+body.theme-siteorigin-corp div.woocommerce form .form-row .select2-selection--single .select2-selection__rendered {
+  font-size: var(--fluidcheckout--field--font-size, 16px);
+}
+
+body.theme-siteorigin-corp .fc-wrapper table.cart tr td,
+body.theme-siteorigin-corp .fc-wrapper table.cart tr th {
+  text-transform: none;
+}
+
+body.theme-siteorigin-corp .fc-wrapper .product-name > a {
+  color: var(--fluidcheckout--siteorigin-corp--cart-item--text-color);
+  font-weight: 700;
+}
+body.theme-siteorigin-corp .fc-wrapper .product-name > a:focus, body.theme-siteorigin-corp .fc-wrapper .product-name > a:hover, body.theme-siteorigin-corp .fc-wrapper .product-name > a:active {
+  color: var(--fluidcheckout--siteorigin-corp--cart-item--text-color--hover);
+}
+
+body.theme-siteorigin-corp .fc-wrapper .cross-sells .product-details .product-add-to-cart .button.loading:after {
+  margin: 0.6em 0 0 0.5em;
+}

@@ -1,0 +1,41 @@
+body.theme-porto div.woocommerce .fc-wrapper #order_review table.woocommerce-checkout-review-order-table tfoot tr.order-total,
+body.theme-porto div.woocommerce .fc-wrapper #order_review table.woocommerce-checkout-review-order-table tbody tr.cart-item .product-total {
+  color: var(--porto-color-price);
+}
+
+div.woocommerce form .form-row select,
+div.woocommerce form .form-row input[type=email],
+div.woocommerce form .form-row input[type=number],
+div.woocommerce form .form-row input[type=date],
+div.woocommerce form .form-row input[type=search],
+div.woocommerce form .form-row input[type=text],
+div.woocommerce form .form-row input[type=tel],
+div.woocommerce form .form-row input[type=url],
+div.woocommerce form .form-row input[type=password] {
+  height: var(--fluidcheckout--field--height, 45.625px);
+}
+
+body.theme-porto .fc-wrapper .cross-sells .product-details .product-price {
+  color: inherit;
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body.theme-porto .fc-wrapper .cross-sells .product-name > a {
+  color: var(--porto-heading-color);
+  font-weight: 500;
+}
+
+body.theme-porto .fc-wrapper .cross-sells .product-name > a:hover {
+  color: var(--porto-primary-color);
+}
+
+body.theme-porto .fc-wrapper table td .cart-item__element.cart-item__product-name {
+  color: var(--porto-heading-color);
+  font-weight: 500;
+}
+
+body.theme-porto .fc-wrapper table.cart td .product-total {
+  color: var(--porto-heading-color);
+  font-weight: 600;
+}

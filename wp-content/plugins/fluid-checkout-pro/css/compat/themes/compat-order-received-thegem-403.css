@@ -1,0 +1,14 @@
+body.woocommerce-order-received.woocommerce-cart-layout-modern .woocommerce .woocommerce-order .woocommerce-notice {
+  margin-bottom: 0;
+}
+
+body.woocommerce-order-received .woocommerce-order .woocommerce-thankyou-order-failed,
+body.woocommerce-order-received .woocommerce-order .fc-order-received-notice--alert {
+  padding: 0 !important;
+  display: block;
+}
+
+body.woocommerce-order-received .woocommerce-order .woocommerce-thankyou-order-failed:before,
+body.woocommerce-order-received .woocommerce-order .fc-order-received-notice--alert:before {
+  transform: none;
+}

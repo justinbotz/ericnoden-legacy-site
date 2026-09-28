@@ -1,0 +1,39 @@
+body.theme-dt-the7.phantom-sticky:not(.has-checkout-header) {
+  padding-top: 120px;
+}
+
+body.theme-dt-the7.phantom-sticky:not(.has-checkout-header).admin-bar .fc-sidebar[data-sticky-states].is-sticky--top .fc-sidebar__inner {
+  padding-top: 5px;
+}
+
+body.theme-dt-the7.has-checkout-header .checkout-page-title + #main.fc-main {
+  margin-top: 60px;
+}
+
+body.theme-dt-the7 .masthead + #main,
+body.theme-dt-the7 .dt-mobile-header + #main {
+  padding-top: 0;
+}
+
+body.theme-dt-the7 .dt-mobile-header + #main .wc-empty-cart-message {
+  margin-top: 70px;
+}
+
+@media (max-width: 999px) {
+  body.theme-dt-the7.has-checkout-header .page-title + #main.fc-main,
+  body.theme-dt-the7.has-checkout-header .checkout-page-title + #main.fc-main {
+    padding-top: 0;
+  }
+  body.theme-dt-the7.has-checkout-header .fc-checkout-header + .page-title,
+  body.theme-dt-the7.has-checkout-header .fc-checkout-header + .checkout-page-title {
+    margin-top: 60px;
+  }
+}
+body.theme-dt-the7 .woocommerce .woocommerce-order-overview.order_details > li .amount {
+  font-size: 16px;
+  line-height: inherit;
+}
+
+body.theme-dt-the7 .woocommerce .fc-order-overview__wrapper {
+  box-sizing: border-box;
+}

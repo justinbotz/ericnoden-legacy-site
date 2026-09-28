@@ -1,0 +1,35 @@
+body.theme-dt-the7.has-actions-inside-order-overview .woocommerce .fc-order-details__actions,
+body.theme-dt-the7.has-actions-inside-order-overview .woocommerce .fc-order-details__actions > a {
+  box-sizing: border-box;
+}
+
+body.theme-dt-the7 .woocommerce .woocommerce-order-overview.order_details > li .amount {
+  font-size: 16px;
+  line-height: inherit;
+}
+
+body.theme-dt-the7 .woocommerce .fc-order-overview__wrapper {
+  box-sizing: border-box;
+}
+
+body.theme-dt-the7 .masthead + #main,
+body.theme-dt-the7 .dt-mobile-header + #main {
+  padding-top: 0;
+}
+
+body.theme-dt-the7 div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details {
+  display: table;
+}
+
+body.theme-dt-the7 div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details tbody {
+  display: table-row-group;
+}
+
+body.theme-dt-the7 div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details tfoot {
+  display: table-footer-group;
+}
+
+body.theme-dt-the7 div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details .product-details,
+body.theme-dt-the7 div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details .product-name {
+  box-sizing: border-box;
+}

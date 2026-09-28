@@ -1,0 +1,68 @@
+:root body.woocommerce-page.has-fc-design-template--split {
+  --fluidcheckout--columns--gap: 70px;
+  --fluidcheckout--section--border-width: 0px;
+  --fluidcheckout--section--border-radius: 5px;
+  --fluidcheckout--section--background-color: transparent;
+  --fluidcheckout--order-summary--border-width: 0px;
+  --fluidcheckout--order-summary--background-color: transparent;
+  --fluidcheckout--order-summary--cell-border-width: 0px;
+  --fluidcheckout--order-summary--cell-border-width--products-list: 0px;
+  --fluidcheckout--order-summary--cell-border-width--products: 0px;
+  --fluidcheckout--order-summary--cell-border-width--summary: 0px;
+  --fluidcheckout--order-summary--cell-border-width--totals-top: 0px;
+  --fluidcheckout--order-summary--cell-border-width--totals-bottom: 0px;
+  --fluidcheckout--option-box--spacing--between-options: 5px;
+  --fluidcheckout--option-box--border-color: transparent;
+  --fluidcheckout--option-box--border-radius: 5px;
+  --fluidcheckout--option-box--background-color: transparent;
+  --fluidcheckout--option-box--border-color--hover: var(--fluidcheckout--color--grey, #7b7575);
+  --fluidcheckout--option-box--background-color--hover: transparent;
+  --fluidcheckout--option-box--label-border-color--hover: var(--fluidcheckout--color--grey, #7b7575);
+  --fluidcheckout--option-box--background-color--checked: transparent;
+  --fluidcheckout--option-box--label-border-color--checked: var(--fluidcheckout--color--black, #000);
+  --fluidcheckout--order-details--section-border-width--alt: 1px;
+}
+
+body.has-fc-design-template--split .woocommerce #payment ul.wc_payment_methods > li.wc_payment_method > label {
+  border: var(--fluidcheckout--option-box--label-border-style, solid) var(--fluidcheckout--option-box--label-border-width, 1px) var(--fluidcheckout--option-box--label-border-color, var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8)));
+  border-radius: var(--fluidcheckout--option-box--border-radius, 13px);
+}
+
+body.has-fc-design-template--split .woocommerce .fc-wrapper #payment .payment_methods > .wc_payment_method:last-of-type input[name=payment_method]:not(:checked) ~ label,
+body.has-fc-design-template--split .woocommerce #add_payment_method .fc-wrapper #payment .payment_methods > .wc_payment_method:last-of-type input[name=payment_method]:not(:checked) ~ label {
+  border: var(--fluidcheckout--option-box--label-border-style, solid) var(--fluidcheckout--option-box--label-border-width, 1px) var(--fluidcheckout--option-box--label-border-color, var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8)));
+  border-bottom-width: var(--fluidcheckout--option-box--label-border-width, 1px);
+}
+
+body.has-fc-design-template--split .woocommerce #payment ul.wc_payment_methods > li.wc_payment_method > input[name=payment_method]:checked + label {
+  font-weight: bold;
+  border: var(--fluidcheckout--option-box--label-border-style, solid) var(--fluidcheckout--option-box--label-border-width, 1px) var(--fluidcheckout--option-box--label-border-color, var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8)));
+  border-radius: var(--fluidcheckout--option-box--border-radius, 13px);
+  border-color: var(--fluidcheckout--option-box--label-border-color--checked, var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8)));
+}
+
+body.has-fc-design-template--split .woocommerce .fc-wrapper #payment ul.wc_payment_methods > li.wc_payment_method > label:hover,
+body.has-fc-design-template--split .woocommerce .fc-wrapper #payment .payment_methods > .wc_payment_method:last-of-type input[name=payment_method]:not(:checked) ~ label:hover,
+body.has-fc-design-template--split .woocommerce #add_payment_method .fc-wrapper #payment .payment_methods > .wc_payment_method:last-of-type input[name=payment_method]:not(:checked) ~ label:hover {
+  border: var(--fluidcheckout--option-box--label-border-style, solid) var(--fluidcheckout--option-box--label-border-width, 1px) var(--fluidcheckout--option-box--label-border-color, var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8)));
+  border-radius: var(--fluidcheckout--option-box--border-radius, 13px);
+  border-color: var(--fluidcheckout--option-box--border-color--hover, var(--fluidcheckout--border-color--dark, var(--fluidcheckout--color--grey, #7b7575)));
+}
+
+body.has-fc-design-template--split .woocommerce #payment ul.wc_payment_methods > li.wc_payment_method.has-payment-box > input[name=payment_method]:checked + label {
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+body.has-fc-design-template--split .fc-wrapper #payment .payment_methods > .wc_payment_method:last-of-type input[name=payment_method]:checked ~ .payment_box,
+body.has-fc-design-template--split #add_payment_method .fc-wrapper #payment .payment_methods > .wc_payment_method:last-of-type input[name=payment_method]:checked ~ .payment_box,
+body.has-fc-design-template--split .fc-wrapper #payment .payment_methods > .wc_payment_method input[name=payment_method]:checked ~ .payment_box,
+body.has-fc-design-template--split #add_payment_method .fc-wrapper #payment .payment_methods > .wc_payment_method input[name=payment_method]:checked ~ .payment_box {
+  border: var(--fluidcheckout--option-box--label-border-style, solid) var(--fluidcheckout--option-box--label-border-width, 1px) var(--fluidcheckout--option-box--label-border-color, var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8)));
+  border-radius: var(--fluidcheckout--option-box--border-radius, 13px);
+  border-color: var(--fluidcheckout--option-box--label-border-color--checked, var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8)));
+  border-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

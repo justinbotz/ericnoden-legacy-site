@@ -1,0 +1,7 @@
+body.theme-gizmos div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details tfoot th {
+  font-size: inherit;
+}
+
+body.theme-gizmos.has-actions-inside-order-overview .woocommerce .fc-order-details__actions a .qodef-m-text {
+  margin-left: 10px;
+}

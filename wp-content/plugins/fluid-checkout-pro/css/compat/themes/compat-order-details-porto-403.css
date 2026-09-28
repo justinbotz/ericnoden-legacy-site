@@ -1,0 +1,23 @@
+body.theme-porto .woocommerce .fc-order-details-section[data-section-id=customer_information] .fc-customer-details__title {
+  color: var(--porto-heading-color);
+}
+
+body.theme-porto .woocommerce .woocommerce-order-overview.order_details > li > strong {
+  color: var(--porto-heading-color);
+}
+
+body.theme-porto .woocommerce .woocommerce-bacs-bank-details .wc-bacs-bank-details-account-name {
+  color: var(--porto-heading-color);
+}
+
+body.theme-porto .woocommerce .fc-wrapper .fc-order-status-bar .fc-order-status-bar__item.current {
+  color: var(--porto-primary-color);
+}
+
+body.theme-porto div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details tfoot td .amount {
+  font-size: inherit;
+}
+
+body.theme-porto div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details tfoot tr.order_total th {
+  color: var(--porto-heading-color);
+}

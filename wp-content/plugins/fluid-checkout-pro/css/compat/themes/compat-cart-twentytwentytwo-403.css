@@ -1,0 +1,8 @@
+body.theme-twentytwentytwo input[type=radio].shipping_method + label::before {
+  margin: 0;
+  transform: none;
+}
+
+body.theme-twentytwentytwo input[type=radio].shipping_method:checked + label::before {
+  background: inherit;
+}

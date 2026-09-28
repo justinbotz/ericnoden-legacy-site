@@ -1,0 +1,131 @@
+.fc-wrapper .fc-cart-section[data-section-id=cross_sell_display] {
+  padding-bottom: 0;
+}
+
+.fc-wrapper .cross-sells {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0;
+  overflow: visible;
+}
+
+.fc-wrapper ul.cart-cross-sells {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.fc-wrapper .cross-sells .cross-sells__item {
+  position: relative;
+  margin: 0 -20px 0;
+  margin-top: -1px;
+  margin-bottom: 0;
+  padding: 20px 20px;
+  border: 0;
+  border-top: dashed var(--fluidcheckout--order-summary--cell-border-width--products, 1px) var(--fluidcheckout--order-summary--cell-border-color--products, var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8)));
+  text-align: right;
+}
+
+.fc-wrapper .cross-sells .cross-sells__item:first-child {
+  border-top: solid var(--fluidcheckout--order-summary--cell-border-width, 1px) var(--fluidcheckout--order-summary--cell-border-color, var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8)));
+}
+
+.fc-wrapper .cross-sells .cross-sells__item::after {
+  content: "";
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.fc-wrapper .cross-sells .cross-sells__item-contents {
+  display: flex;
+  align-items: flex-start;
+}
+@media (min-width: 750px) {
+  .fc-wrapper .cross-sells .cross-sells__item-contents {
+    align-items: center;
+  }
+}
+
+.fc-wrapper .cross-sells .product-details {
+  flex-grow: 1;
+  padding-right: calc(20px - var(--fluidcheckout--order-summary--image-padding, 3px));
+}
+@media (min-width: 750px) {
+  .fc-wrapper .cross-sells .product-details {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+}
+
+.fc-wrapper .cross-sells .product-details-inner {
+  flex-grow: 1;
+}
+
+.fc-wrapper .cross-sells .product-thumbnail {
+  flex-shrink: 0;
+  width: var(--fluidcheckout--cart-item--image-width, 60px);
+}
+@media (min-width: 750px) {
+  .fc-wrapper .cross-sells .product-thumbnail {
+    width: var(--fluidcheckout--cart-item--image-width--large-screen, 120px);
+  }
+}
+
+.fc-wrapper .cross-sells .product-thumbnail img {
+  float: right;
+  margin-right: calc(-1 * var(--fluidcheckout--order-summary--image-padding, 3px));
+  padding: var(--fluidcheckout--order-summary--image-padding, 3px);
+  width: var(--fluidcheckout--cart-item--image-width, 60px);
+  height: auto;
+  background-color: var(--fluidcheckout--order-summary--image-background-color, var(--fluidcheckout--color--white, #fff));
+  border: solid var(--fluidcheckout--order-summary--image-border-width, 1px) var(--fluidcheckout--order-summary--image-border-color, var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8)));
+  border-radius: var(--fluidcheckout--order-summary--image-border-radius, 3px);
+}
+@media (min-width: 750px) {
+  .fc-wrapper .cross-sells .product-thumbnail img {
+    width: var(--fluidcheckout--cart-item--image-width--large-screen, 120px);
+    height: auto;
+  }
+}
+
+.fc-wrapper .cross-sells .product-details .product-price {
+  margin: 0;
+  padding-top: 0;
+  padding-right: 0;
+  width: auto;
+  text-align: right;
+}
+
+.fc-wrapper .cross-sells .product-details .product-add-to-cart {
+  flex-shrink: 0;
+  margin: 10px 0;
+  text-align: right;
+}
+@media (min-width: 750px) {
+  .fc-wrapper .cross-sells .product-details .product-add-to-cart {
+    text-align: left;
+  }
+}
+
+.fc-wrapper .cross-sells .product-details .product-add-to-cart .add_to_cart_button {
+  position: static;
+}
+
+.fc-wrapper .cross-sells .product-details .product-add-to-cart .add_to_cart_button:focus {
+  outline: solid 2px var(--fluidcheckout--color--dark-grey, #535156) !important;
+  outline-offset: 2px !important;
+}
+
+.fc-wrapper .cross-sells .product-details .product-add-to-cart .add_to_cart_button.fc-loading,
+body.has-fc-button-colors .fc-wrapper .cross-sells .product-details .product-add-to-cart .add_to_cart_button.fc-loading,
+body.has-fc-button-colors .fc-wrapper .cross-sells .product-details .product-add-to-cart .add_to_cart_button.fc-loading:not([disabled]):not(.disabled):focus,
+body.has-fc-button-colors .fc-wrapper .cross-sells .product-details .product-add-to-cart .add_to_cart_button.fc-loading:not([disabled]):not(.disabled):active {
+  position: relative !important;
+  color: transparent !important;
+}
+
+.fc-wrapper .cross-sells .product-details .product-add-to-cart .button {
+  margin: 0;
+}

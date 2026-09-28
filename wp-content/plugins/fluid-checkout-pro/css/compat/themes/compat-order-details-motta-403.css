@@ -1,0 +1,14 @@
+body.theme-motta .woocommerce .fc-order-details-section[data-section-id=payment_method] .fc-section__content > p {
+  margin-top: 0;
+}
+
+body.theme-motta .woocommerce .fc-wrapper .fc-section-title,
+body.theme-motta .woocommerce .fc-wrapper .fc-subsection-title {
+  font-size: 15px;
+}
+@media (min-width: 1000px) {
+  body.theme-motta .woocommerce .fc-wrapper .fc-section-title,
+  body.theme-motta .woocommerce .fc-wrapper .fc-subsection-title {
+    font-size: 15px;
+  }
+}

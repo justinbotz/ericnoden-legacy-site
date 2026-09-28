@@ -1,0 +1,28 @@
+@media (min-width: 1000px) {
+  body.theme-hestia.has-fc-sidebar.has-fc-design-template--split .fc-content .container {
+    position: relative;
+  }
+}
+
+@media (min-width: 1000px) {
+  body.theme-hestia.has-fc-sidebar.has-fc-design-template--split .fc-content .container::after {
+    z-index: 2;
+    content: "";
+    visibility: visible;
+    position: absolute;
+    display: block;
+    clear: both;
+    height: 100%;
+    width: 100vw;
+    top: 0;
+    right: 60%;
+    background-color: var(--fluidcheckout--order-summary--background-color, var(--fluidcheckout--color--white, #fff));
+    border-right: 1px solid var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8));
+  }
+}
+
+@media (min-width: 1000px) {
+  body.theme-hestia.has-fc-sidebar.has-fc-design-template--split .fc-content::after {
+    content: none;
+  }
+}

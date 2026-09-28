@@ -1,0 +1,413 @@
+/**
+ * This file contains all Sass variables.
+ **/
+/**
+ * Color Variables
+ **/
+/** Public related CSS */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.milna {
+  background-color: #8224e3;
+}
+
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] {
+  display: flex;
+  /**
+  * User Avatar
+  **/
+  /* Smooth transitions */
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-icon {
+  width: 0.875em;
+  height: 1em;
+  vertical-align: -0.125em;
+  display: inline-block;
+  font-size: inherit;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .woocommerce-MyAccount-content {
+  flex: 1;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] {
+  flex-direction: column;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation,
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .woocommerce-MyAccount-content {
+  width: 100%;
+  grid-column: auto;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .bsMyAccount {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation .tgwc-woocommerce-MyAccount-navigation-wrap {
+  margin: 20px 0;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation .tgwc-woocommerce-MyAccount-navigation-wrap > ul > li {
+  min-width: fit-content;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation .tgwc-woocommerce-MyAccount-navigation-wrap > ul:not(.scroll_tabs_container) {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul li {
+  white-space: nowrap;
+  position: static;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul li a {
+  padding: 8px 12px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.25s ease 0s;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul li a:hover {
+  border-color: #ced4da;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul li ul {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  width: 160px;
+  max-width: 160px;
+  border-radius: 4px;
+  box-shadow: 0 1px 6px 1px rgba(33, 37, 41, 0.1);
+  z-index: 10;
+  background: #fff;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul li.is-active a {
+  border-bottom: 2px solid currentColor;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul li:hover ul {
+  display: flex;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul.scroll_tabs_container {
+  height: inherit;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul.scroll_tabs_container li {
+  background: transparent;
+  padding: 0;
+  line-height: inherit;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul.scroll_tabs_container .scroll_tab_left_button,
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul.scroll_tabs_container .scroll_tab_right_button {
+  height: inherit;
+  bottom: 0;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul.scroll_tabs_container .scroll_tab_left_button.scroll_arrow_disabled,
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul.scroll_tabs_container .scroll_tab_right_button.scroll_arrow_disabled {
+  visibility: hidden;
+  opacity: 0;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul.scroll_tabs_container .scroll_tab_left_button::before,
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul.scroll_tabs_container .scroll_tab_right_button::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  line-height: inherit;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border: 2px solid #212529;
+  border-left: transparent;
+  border-bottom: transparent;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul.scroll_tabs_container .scroll_tab_left_button {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.7));
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul.scroll_tabs_container .scroll_tab_left_button::before {
+  transform: translateY(-50%) rotate(225deg);
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul.scroll_tabs_container .scroll_tab_right_button {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.7));
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul.scroll_tabs_container .scroll_tab_right_button::before {
+  transform: translateY(-50%) rotate(45deg);
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul.scroll_tabs_container .scroll_tab_inner {
+  height: auto;
+  position: static !important;
+  font-size: unset !important;
+  display: flex;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=tab] .tgwc-woocommerce-MyAccount-navigation ul.scroll_tabs_container .scroll_tab_inner > li {
+  min-width: fit-content;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-left], .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-right], .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-left], .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-right] {
+  grid-auto-flow: column;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-left] .bsMyAccount, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-right] .bsMyAccount, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-left] .bsMyAccount, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-right] .bsMyAccount {
+  width: 100%;
+  display: flex;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-left] .tgwc-woocommerce-MyAccount-navigation, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-right] .tgwc-woocommerce-MyAccount-navigation, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-left] .tgwc-woocommerce-MyAccount-navigation, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-right] .tgwc-woocommerce-MyAccount-navigation {
+  width: 100%;
+  max-width: 280px;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-left] .tgwc-woocommerce-MyAccount-navigation,
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-left] .woocommerce-MyAccount-content, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-right] .tgwc-woocommerce-MyAccount-navigation,
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-right] .woocommerce-MyAccount-content, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-left] .tgwc-woocommerce-MyAccount-navigation,
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-left] .woocommerce-MyAccount-content, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-right] .tgwc-woocommerce-MyAccount-navigation,
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-right] .woocommerce-MyAccount-content {
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-left] .tgwc-woocommerce-MyAccount-navigation-wrap .tgwc-nav-tab-left-scroll,
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-left] .tgwc-woocommerce-MyAccount-navigation-wrap .tgwc-nav-tab-right-scroll, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-right] .tgwc-woocommerce-MyAccount-navigation-wrap .tgwc-nav-tab-left-scroll,
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-right] .tgwc-woocommerce-MyAccount-navigation-wrap .tgwc-nav-tab-right-scroll, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-left] .tgwc-woocommerce-MyAccount-navigation-wrap .tgwc-nav-tab-left-scroll,
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-left] .tgwc-woocommerce-MyAccount-navigation-wrap .tgwc-nav-tab-right-scroll, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-right] .tgwc-woocommerce-MyAccount-navigation-wrap .tgwc-nav-tab-left-scroll,
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-right] .tgwc-woocommerce-MyAccount-navigation-wrap .tgwc-nav-tab-right-scroll {
+  display: none;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-left] ul li ul, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-right] ul li ul, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-left] ul li ul, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-right] ul li ul {
+  padding-left: 20px;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-left] ul li.woocommerce-MyAccount-navigation-link.is-active a, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-right] ul li.woocommerce-MyAccount-navigation-link.is-active a, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-left] ul li.woocommerce-MyAccount-navigation-link.is-active a, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-right] ul li.woocommerce-MyAccount-navigation-link.is-active a {
+  color: #8224e3;
+  border-width: 1px 0 0;
+  border-style: solid;
+  border-color: #ced4da;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-left] ul li.woocommerce-MyAccount-navigation-link a, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-right] ul li.woocommerce-MyAccount-navigation-link a, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-left] ul li.woocommerce-MyAccount-navigation-link a, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-right] ul li.woocommerce-MyAccount-navigation-link a {
+  border-color: #ced4da;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-left][data-menu-position=vertical-left] .tgwc-woocommerce-MyAccount-navigation, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-right][data-menu-position=vertical-left] .tgwc-woocommerce-MyAccount-navigation, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-left][data-menu-position=vertical-left] .tgwc-woocommerce-MyAccount-navigation, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-right][data-menu-position=vertical-left] .tgwc-woocommerce-MyAccount-navigation {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 16px;
+  align-self: flex-start;
+  grid-column: 1/2;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-left][data-menu-position=vertical-left] .woocommerce-MyAccount-content, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-right][data-menu-position=vertical-left] .woocommerce-MyAccount-content, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-left][data-menu-position=vertical-left] .woocommerce-MyAccount-content, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-right][data-menu-position=vertical-left] .woocommerce-MyAccount-content {
+  grid-column: 2/-1;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-left][data-menu-position=vertical-right], .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-right][data-menu-position=vertical-right], .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-left][data-menu-position=vertical-right], .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-right][data-menu-position=vertical-right] {
+  flex-direction: row-reverse;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-left][data-menu-position=vertical-right] .tgwc-woocommerce-MyAccount-navigation, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-right][data-menu-position=vertical-right] .tgwc-woocommerce-MyAccount-navigation, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-left][data-menu-position=vertical-right] .tgwc-woocommerce-MyAccount-navigation, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-right][data-menu-position=vertical-right] .tgwc-woocommerce-MyAccount-navigation {
+  grid-column: 4/-1;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-left][data-menu-position=vertical-right] .woocommerce-MyAccount-content, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=vertical-right][data-menu-position=vertical-right] .woocommerce-MyAccount-content, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-left][data-menu-position=vertical-right] .woocommerce-MyAccount-content, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-position=sidebar-right][data-menu-position=vertical-right] .woocommerce-MyAccount-content {
+  grid-column: 1/4;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-woocommerce-MyAccount-navigation ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-woocommerce-MyAccount-navigation ul li {
+  margin: 0;
+  border: none;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-woocommerce-MyAccount-navigation ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 12px 0;
+  word-break: break-all;
+  white-space: normal;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-woocommerce-MyAccount-navigation ul li a::before, .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-woocommerce-MyAccount-navigation ul li a::after {
+  content: none;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-woocommerce-MyAccount-navigation ul li a span {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-woocommerce-MyAccount-navigation ul li a img {
+  width: 0.875em;
+  height: 1em;
+  vertical-align: -0.125em;
+  display: inline-block;
+  font-size: inherit;
+  margin: 0 8px;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-woocommerce-MyAccount-navigation ul li.tgwc-group[data-collapsed=true] > ul {
+  display: none;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-woocommerce-MyAccount-navigation ul li.tgwc-group > a {
+  flex-direction: row-reverse;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-woocommerce-MyAccount-navigation ul li.tgwc-group > a > span {
+  background: inherit;
+  color: inherit;
+  line-height: unset;
+  padding-right: 0;
+  padding-left: 0;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-woocommerce-MyAccount-navigation ul li.tgwc-group > a > svg {
+  width: 12px;
+  height: auto;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-woocommerce-MyAccount-navigation ul li.tgwc-group.tgwc-navicon-left > a {
+  flex-direction: row;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-woocommerce-MyAccount-navigation ul li.tgwc-group.tgwc-navicon-left > a span {
+  gap: 8px;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-woocommerce-MyAccount-navigation ul li.tgwc-group.tgwc-navicon-right > a {
+  flex-direction: row;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-woocommerce-MyAccount-navigation ul li.tgwc-group.tgwc-navicon-right > a span {
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  gap: 8px;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-woocommerce-MyAccount-navigation ul li.tgwc-navicon-right a {
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  gap: 8px;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-woocommerce-MyAccount-navigation ul li.tgwc-navicon-left a svg,
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-woocommerce-MyAccount-navigation ul li.tgwc-navicon-left a > span svg {
+  margin: 0 8px;
+}
+@media (max-width: 768px) {
+  .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-style][data-menu-position] {
+    grid-template-columns: auto;
+    grid-auto-flow: row;
+  }
+  .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-style][data-menu-position] .tgwc-woocommerce-MyAccount-navigation,
+  .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy][data-menu-style][data-menu-position] .woocommerce-MyAccount-content {
+    grid-column: auto;
+  }
+}
+[data-menu-position=sidebar] .tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar {
+  margin-bottom: 24px;
+}
+
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .dropzone {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  min-height: auto;
+  border: none;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap {
+  width: 96px;
+  height: 96px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap .tgwc-remove-image,
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap .tgwc-user-avatar-upload-icon {
+  visibility: hidden;
+  transition: all ease 0.4s;
+  transition: all ease 0.4s;
+  opacity: 0;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap:hover .tgwc-remove-image,
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap:hover .tgwc-user-avatar-upload-icon {
+  visibility: visible;
+  opacity: 1;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap .avatar {
+  width: 100%;
+  height: 100%;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap .tgwc-user-avatar-upload-icon,
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap .tgwc-remove-image {
+  color: #fff;
+  background: rgba(33, 37, 41, 0.5);
+  padding: 4px;
+  height: 24px;
+  width: 24px;
+  border-radius: 4px;
+  position: absolute;
+  right: 8px;
+  cursor: pointer;
+  line-height: 1;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap .tgwc-remove-image {
+  padding: 2px 4px;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap .tgwc-user-avatar-upload-icon {
+  bottom: 8px;
+  display: inline-flex;
+  align-items: center;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap .tgwc-remove-image {
+  top: 8px;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap .tgwc-progress {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap .tgwc-progress--loading .tgwc-icon {
+  animation: spin 1000ms infinite linear;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap.tgwc-user-avatar-image-wrap--square {
+  border-radius: 4px;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap.tgwc-user-avatar-image-wrap--circle {
+  border-radius: 50%;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap.tgwc-user-avatar-image-wrap--circle .tgwc-user-avatar-upload-icon {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .dropzone .dz-default.dz-message {
+  margin: 16px 0;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar .tgwc-user-info .tgwc-user-id {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar.tgwc-user-avatar--left-aligned {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar.tgwc-user-avatar--center-aligned {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar.tgwc-user-avatar--right-aligned {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  align-items: flex-end;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar.tgwc-user-avatar--vertical-aligned {
+  display: flex;
+  flex-direction: row;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .tgwc-user-avatar.tgwc-user-avatar--vertical-aligned .dropzone {
+  margin-right: 16px;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .woocommerce-MyAccount-content {
+  transition: opacity 0.3s ease;
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce[data-menu-layout=legacy] .woocommerce-MyAccount-content.loading {
+  opacity: 0.6;
+}

@@ -1,0 +1,11 @@
+body.theme-kapee .woocommerce .woocommerce-order-overview.order_details > li > strong {
+  margin-right: 0;
+}
+
+body.theme-kapee .woocommerce .woocommerce-bacs-bank-details .wc-bacs-bank-details li:not(:last-child) {
+  margin-bottom: 0;
+}
+
+body.theme-kapee .woocommerce .woocommerce-bacs-bank-details .wc-bacs-bank-details li strong {
+  text-align: right;
+}

@@ -1,0 +1,16 @@
+body.theme-yith-proteo.woocommerce-order-received .entry-content {
+  max-width: 100%;
+  padding: 0;
+  border: 0;
+}
+
+body.theme-yith-proteo.woocommerce-order-received .woocommerce-order .woocommerce-thankyou-order-failed,
+body.theme-yith-proteo.woocommerce-order-received .woocommerce-order .fc-order-received-notice--alert {
+  font-size: 20px;
+}
+@media (min-width: 1000px) {
+  body.theme-yith-proteo.woocommerce-order-received .woocommerce-order .woocommerce-thankyou-order-failed,
+  body.theme-yith-proteo.woocommerce-order-received .woocommerce-order .fc-order-received-notice--alert {
+    font-size: 24px;
+  }
+}

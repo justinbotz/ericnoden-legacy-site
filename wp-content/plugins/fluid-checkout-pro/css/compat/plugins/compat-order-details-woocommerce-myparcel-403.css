@@ -1,0 +1,7 @@
+.fc-wrapper table.my-parcel__delivery-info td {
+  padding: 0;
+}
+
+.fc-wrapper table.my-parcel__delivery-info td:first-child {
+  font-weight: bold;
+}

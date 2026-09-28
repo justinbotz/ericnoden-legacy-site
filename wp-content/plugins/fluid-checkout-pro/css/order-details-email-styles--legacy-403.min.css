@@ -1,0 +1,1 @@
+#addresses tr:nth-child(2) td{border:solid var(--fluidcheckout--section--border-width,1px) var(--fluidcheckout--section--border-color,var(--fluidcheckout--border-color,var(--fluidcheckout--color--light-grey,#d8d8d8)))!important}

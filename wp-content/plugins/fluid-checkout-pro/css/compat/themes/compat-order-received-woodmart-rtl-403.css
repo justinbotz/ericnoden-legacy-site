@@ -1,0 +1,8 @@
+body.theme-woodmart.woocommerce-order-received.has-fc-order-received .woocommerce-order {
+  width: 100%;
+  max-width: none;
+}
+
+body.theme-woodmart.woocommerce-order-received.has-fc-order-received .woocommerce-order-details .responsive-table {
+  overflow: unset;
+}

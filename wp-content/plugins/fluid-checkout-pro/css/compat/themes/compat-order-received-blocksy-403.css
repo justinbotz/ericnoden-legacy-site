@@ -1,0 +1,4 @@
+body.theme-blocksy.woocommerce-order-received .woocommerce-order .woocommerce-thankyou-order-received {
+  display: block;
+  background-color: transparent;
+}

@@ -1,0 +1,17 @@
+body.theme-Divi.woocommerce-order-pay:not(.has-checkout-header) .fc-content {
+  padding: 0 20px 80px;
+}
+@media (min-width: 750px) {
+  body.theme-Divi.woocommerce-order-pay:not(.has-checkout-header) .fc-content {
+    position: relative;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    width: 80%;
+    max-width: 1080px;
+  }
+}
+
+body.theme-Divi div.woocommerce .fc-wrapper #order_review table.woocommerce-checkout-review-order-table .product-details {
+  will-change: none;
+}

@@ -1,0 +1,9 @@
+div.woocommerce .fc-wrapper .woocommerce-order-details table.shop_table,
+div.woocommerce .fc-wrapper .woocommerce-order-details table.shop_table td,
+div.woocommerce .fc-wrapper .woocommerce-order-details table.shop_table th {
+  border: 0;
+}
+
+div.woocommerce .fc-wrapper .woocommerce-order-details table.shop_table td {
+  text-align: left;
+}

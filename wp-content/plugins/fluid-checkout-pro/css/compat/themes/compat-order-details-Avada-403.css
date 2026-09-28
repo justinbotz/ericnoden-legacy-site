@@ -1,0 +1,14 @@
+body.theme-Avada .woocommerce #fc-wrapper .fc-section-title,
+body.theme-Avada .woocommerce #fc-wrapper .fc-subsection-title {
+  color: var(--fluidcheckout--color--dark-grey, #535156);
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1;
+  border: 0;
+}
+@media (min-width: 1000px) {
+  body.theme-Avada .woocommerce #fc-wrapper .fc-section-title,
+  body.theme-Avada .woocommerce #fc-wrapper .fc-subsection-title {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,94 @@
+.gh-header.hidden {
+  display: none;
+}
+
+#wpcontent {
+  padding-left: 0;
+}
+
+#groundhogg-notices, #screen-meta-links, .notice {
+  display: none;
+}
+
+body.groundhogg_page_gh_extensions {
+  background-color: #F6F9FB;
+}
+
+#add-license {
+  width: 600px;
+  margin: auto;
+}
+#add-license #logo {
+  margin: 40px auto;
+  width: 400px;
+}
+#add-license h1 {
+  margin-top: 0;
+}
+#add-license p, #add-license label, #add-license ul {
+  font-size: 16px;
+}
+#add-license ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+#add-license > .gh-panel > .inside {
+  padding: 40px;
+}
+#add-license input.input {
+  font-size: 16px;
+  padding: 4px 12px;
+}
+
+#extensions-here {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  grid-template-areas: ". . ." ". . ." ". . .";
+  padding: 20px;
+}
+#extensions-here .gh-spinner-wrap {
+  grid-column: 1/4;
+}
+#extensions-here img {
+  width: 180px;
+  border-radius: 4px;
+}
+#extensions-here .plugin-actions {
+  border-top: 1px solid rgba(16, 38, 64, 0.1);
+  padding: 20px;
+}
+#extensions-here h2 {
+  margin-top: 0;
+}
+#extensions-here .gh-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#more-details-content {
+  padding: 20px;
+}
+#more-details-content figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+#more-details-content img {
+  max-width: 100%;
+}
+#more-details-content h2 {
+  margin-top: 1em;
+}
+#more-details-content ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.thumbnail {
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

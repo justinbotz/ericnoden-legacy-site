@@ -1,0 +1,34 @@
+.fc-account-matching__content {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: var(--fluidcheckout--color--lighter-grey, #f3f3f3);
+  font-size: 15px;
+}
+@media (min-width: 1000px) {
+  .fc-account-matching__content {
+    font-size: 15px;
+  }
+}
+
+.fc-account-matching__message-text {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.fc-account-matching__cta-text {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.fc-account-matching__action {
+  cursor: pointer;
+}
+.fc-account-matching__action:focus {
+  outline: dotted 1px var(--fluidcheckout--color--dark-grey, #535156) !important;
+  outline-offset: 1px !important;
+}
+
+.fc-account-matching__action--underline {
+  text-decoration: underline;
+}

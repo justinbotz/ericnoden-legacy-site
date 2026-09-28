@@ -1,0 +1,19 @@
+body.theme-neve .fc-wrapper .fc-expansible-form-section__content--coupon_code .fc-coupon-code__apply {
+  line-height: 1;
+}
+
+body.theme-neve .fc-wrapper .fc-expansible-form-section__content--coupon_code input[name=coupon_code] {
+  border-style: solid;
+  border-color: var(--formfieldbordercolor);
+  border-width: var(--formfieldborderwidth);
+  border-radius: var(--formfieldborderradius, 3px);
+  background: var(--formfieldbgcolor);
+  color: var(--formfieldcolor);
+  padding: var(--formfieldpadding);
+  text-transform: var(--formfieldtexttransform);
+  font-weight: var(--formfieldfontweight);
+  font-family: var(--bodyfontfamily);
+  font-size: var(--formfieldfontsize);
+  letter-spacing: var(--formfieldletterspacing);
+  line-height: var(--formfieldlineheight);
+}

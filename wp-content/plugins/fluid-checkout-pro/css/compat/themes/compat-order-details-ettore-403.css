@@ -1,0 +1,13 @@
+.woocommerce .fc-order-details-action {
+  padding: 19px 50px;
+  background-color: var(--fluidcheckout--button--primary--background-color, var(--fluidcheckout--color--black, #000));
+  color: var(--fluidcheckout--button--primary--text-color, var(--fluidcheckout--color--white, #fff));
+}
+
+body.theme-ettore .woocommerce .woocommerce-customer-details .woocommerce-customer-details--email {
+  margin-top: 0;
+}
+
+body.theme-ettore .woocommerce-order .woocommerce-thankyou-order-received {
+  text-transform: none;
+}

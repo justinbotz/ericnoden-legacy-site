@@ -1,0 +1,13 @@
+body.theme-thrive-theme .fc-wrapper div {
+  box-sizing: border-box !important;
+}
+
+body.theme-thrive-theme .woocommerce-order .fc-order-received__notice,
+body.theme-thrive-theme .woocommerce-order .fc-order-overview__wrapper {
+  box-sizing: border-box !important;
+}
+
+body.theme-thrive-theme .woocommerce .fc-order-details-section[data-section-id=customer_information] .fc-customer-details__title {
+  font-size: inherit;
+  font-weight: bold;
+}

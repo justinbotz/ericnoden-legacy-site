@@ -1,0 +1,17 @@
+.fc-wrapper .fc-cart-item-actions > div.tinv-wishlist {
+  padding: 0;
+}
+
+.fc-wrapper .fc-cart-item-actions > div.tinv-wishlist:not(:first-child) {
+  margin-top: 10px;
+}
+
+.fc-wrapper .fc-cart-item-actions > div.tinv-wishlist .tinv-wishlist-clear + a:not(:first-child) {
+  margin-top: 10px;
+}
+@media (min-width: 750px) {
+  .fc-wrapper .fc-cart-item-actions > div.tinv-wishlist .tinv-wishlist-clear + a:not(:first-child) {
+    margin-top: 0;
+    margin-right: 10px;
+  }
+}

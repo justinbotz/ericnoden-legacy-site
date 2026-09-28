@@ -1,0 +1,30 @@
+.fc-wrapper .seur-shipping-fields {
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+.fc-wrapper .seur-shipping-fields:after {
+  content: "";
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.fc-wrapper .seur-shipping-fields .form-row {
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+}
+
+.fc-wrapper .seur-shipping-fields .form-row label {
+  padding-left: 0 !important;
+}
+
+.fc-wrapper .seur-shipping-fields .form-row label::before,
+.fc-wrapper .seur-shipping-fields .form-row label::after {
+  display: none !important;
+  content: none !important;
+}
+
+.fc-wrapper #seur-gmap {
+  margin-bottom: 10px;
+}

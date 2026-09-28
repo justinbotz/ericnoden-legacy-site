@@ -1,0 +1,5 @@
+body.theme-listable .upsells,
+body.theme-listable .cross-sells,
+body.theme-listable .related {
+  display: block;
+}

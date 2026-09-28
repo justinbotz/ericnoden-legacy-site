@@ -1,0 +1,8 @@
+.woocommerce-cart .fc-wrapper .woocommerce-cart-form {
+  position: static;
+}
+@media (min-width: 1025px) {
+  .woocommerce-cart .fc-wrapper .woocommerce-cart-form {
+    position: static;
+  }
+}

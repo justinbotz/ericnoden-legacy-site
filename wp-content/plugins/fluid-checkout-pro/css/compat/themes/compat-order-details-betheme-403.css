@@ -1,0 +1,51 @@
+body.theme-betheme .woocommerce .fc-order-details-section[data-section-id=customer_information] .woocommerce-customer-details,
+body.theme-betheme .woocommerce .woocommerce-columns--addresses .woocommerce-column {
+  text-align: left;
+}
+
+body.theme-betheme .woocommerce .woocommerce-customer-details address {
+  display: block;
+}
+
+body.theme-betheme .woocommerce .woocommerce-customer-details address:before {
+  content: none;
+}
+
+body.theme-betheme .woocommerce .woocommerce-order-overview.order_details > li {
+  font-weight: 400;
+}
+
+body.theme-betheme .woocommerce .woocommerce-bacs-bank-details {
+  background: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+body.theme-betheme .woocommerce .woocommerce-bacs-bank-details ul.order_details li {
+  float: none;
+  font-weight: 400;
+}
+
+body.theme-betheme .woocommerce .woocommerce-bacs-bank-details ul.order_details li:last-of-type {
+  border-bottom: dashed var(--fluidcheckout--order-details--section-border-width--alt, var(--fluidcheckout--order-details--section-border-width, var(--fluidcheckout--section--border-width, 1px))) var(--fluidcheckout--section--border-color, var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8)));
+}
+
+body.theme-betheme .woocommerce .woocommerce-bacs-bank-details ul.order_details li strong {
+  font-weight: bold;
+}
+
+body.theme-betheme .woocommerce .woocommerce-bacs-bank-details .wc-bacs-bank-details-account-name {
+  text-align: left;
+}
+
+body.theme-betheme .woocommerce .woocommerce-order-details {
+  background: none;
+}
+
+body.theme-betheme div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details tfoot td .amount {
+  font-size: 15px;
+}
+
+body.theme-betheme .fc-wrapper table.woocommerce-table--order-details .woocommerce-Price-amount {
+  font-size: inherit;
+}

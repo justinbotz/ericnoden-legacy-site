@@ -1,0 +1,8 @@
+body.breakdance div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details th,
+body.breakdance div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details td {
+  border-radius: 0;
+}
+
+body.breakdance div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details tbody tr.order_item:not(:last-child) {
+  border-bottom: 0;
+}

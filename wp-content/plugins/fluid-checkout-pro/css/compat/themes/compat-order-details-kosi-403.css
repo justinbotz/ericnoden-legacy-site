@@ -1,0 +1,15 @@
+body.theme-kosi .woocommerce .woocommerce-bacs-bank-details ul.order_details {
+  margin: 0 !important;
+}
+
+body.theme-kosi .woocommerce .woocommerce-bacs-bank-details ul.order_details li {
+  float: none;
+}
+
+body.theme-kosi div.woocommerce .fc-wrapper .woocommerce-order-details table.shop_table tr {
+  background-color: transparent;
+}
+
+body.theme-kosi div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details tfoot td .amount {
+  font-size: 15px;
+}

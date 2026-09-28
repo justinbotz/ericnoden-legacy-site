@@ -1,0 +1,103 @@
+.woocommerce-order-overview.order_details {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  list-style: none;
+  margin: 0 0 30px;
+  padding: 20px;
+  border: var(--fluidcheckout--order-overview--border-style, dashed) var(--fluidcheckout--order-details--section-border-width, var(--fluidcheckout--section--border-width, 1px)) var(--fluidcheckout--order-overview--border-color, var(--fluidcheckout--color--success, #007a3d));
+  border-radius: var(--fluidcheckout--section--border-radius, 8px);
+  background-color: transparent;
+  text-align: left;
+}
+
+.woocommerce-order-overview.order_details:before,
+.woocommerce-order-overview.order_details:after {
+  display: none;
+}
+
+.woocommerce-order-overview.order_details > li {
+  padding: 0;
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 0;
+}
+
+.woocommerce-order-overview.order_details > li:last-of-type {
+  margin-bottom: 0;
+}
+
+.woocommerce-order-overview.order_details > li > strong {
+  display: block;
+  width: 100%;
+}
+
+.fc-order-details-section[data-section-id=payment_method] {
+  margin-bottom: 30px;
+}
+
+.fc-order-details-section[data-section-id=payment_method] .fc-section__content {
+  margin: 0 0 30px;
+  padding: 30px 20px 20px;
+  border: solid var(--fluidcheckout--section--border-width, 1px) var(--fluidcheckout--section--border-color, var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8)));
+  border-radius: var(--fluidcheckout--section--border-radius, 8px);
+  border-color: var(--fluidcheckout--color--alert, #c95000);
+}
+
+.woocommerce-bacs-bank-details .wc-bacs-bank-details {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+.woocommerce-bacs-bank-details .wc-bacs-bank-details:before,
+.woocommerce-bacs-bank-details .wc-bacs-bank-details:after {
+  display: none;
+}
+
+.woocommerce-bacs-bank-details .wc-bacs-bank-details li {
+  position: relative;
+  padding: 5px 0;
+  border: 0;
+  border-bottom: dashed var(--fluidcheckout--order-details--section-border-width--alt, var(--fluidcheckout--order-details--section-border-width, var(--fluidcheckout--section--border-width, 1px))) var(--fluidcheckout--section--border-color, var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8)));
+}
+
+.woocommerce-bacs-bank-details .wc-bacs-bank-details strong {
+  display: block;
+  width: 100%;
+}
+
+.woocommerce-bacs-bank-details .wc-bacs-bank-details-account-name {
+  margin: 20px 0 5px;
+}
+
+#body_content .email-order-details .order-item-data td img {
+  margin: 0;
+}
+
+#body_content .email-order-details .order-item-data td:first-child {
+  padding-right: 20px !important;
+  width: 48px;
+}
+
+.fc-order-details-section[data-section-id=order_notes] {
+  margin-bottom: 30px;
+}
+
+.fc-order-details-section[data-section-id=order_notes] .fc-section__content {
+  margin: 0;
+  padding: 20px;
+  border: dashed 1px var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8));
+  border-radius: 5px;
+}
+
+#addresses tr td,
+#addresses address {
+  border: 0 !important;
+}
+
+#addresses tr td {
+  padding: 0 !important;
+}

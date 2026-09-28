@@ -1,0 +1,12 @@
+body.theme-artemis-swp div.woocommerce form .form-row .select2-selection__rendered {
+  border-bottom: solid 1px #e1e1e1 !important;
+}
+
+body.theme-artemis-swp.has-fc-dark-mode div.woocommerce form .form-row .select2-selection__rendered {
+  border-color: #4c4c4c !important;
+}
+
+body.theme-artemis-swp .fc-wrapper .woocommerce-cart-form__contents .woocommerce-Price-amount,
+body.theme-artemis-swp .fc-wrapper .woocommerce-cart-form__contents .product-name a {
+  line-height: 1.2;
+}

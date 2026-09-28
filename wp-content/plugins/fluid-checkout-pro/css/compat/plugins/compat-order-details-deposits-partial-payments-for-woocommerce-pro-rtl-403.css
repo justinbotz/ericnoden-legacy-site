@@ -1,0 +1,27 @@
+.woocommerce #fc-wrapper .awcdp_deposits_summary_title {
+  display: inline-block;
+  margin: 0 0 15px;
+  padding: 0;
+  width: auto;
+  color: var(--fluidcheckout--color--dark-grey, #535156);
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 1;
+  overflow: unset;
+}
+@media (min-width: 1000px) {
+  .woocommerce #fc-wrapper .awcdp_deposits_summary_title {
+    font-size: 15px;
+  }
+}
+
+.woocommerce #fc-wrapper .awcdp_balance_pay {
+  margin-top: 20px;
+}
+
+.woocommerce #fc-wrapper .awcdp_balance_pay .button.pay {
+  margin-right: 20px;
+  text-decoration: none;
+}

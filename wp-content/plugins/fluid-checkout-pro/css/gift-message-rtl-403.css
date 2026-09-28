@@ -1,0 +1,32 @@
+.fc-gift-options__message {
+  margin: 0 0 30px;
+  padding: 30px 20px;
+  border: dashed 1px var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8));
+  border-radius: 5px;
+}
+
+.fc-gift-options__message .fc-gift-options__message-text {
+  max-width: 750px;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  font-size: 1.2em;
+  font-style: italic;
+  text-align: center;
+}
+
+.fc-gift-options__message .fc-gift-options__message-text::before,
+.fc-gift-options__message .fc-gift-options__message-text::after {
+  display: none;
+}
+
+.fc-gift-options__message .fc-gift-options__message-from {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.woocommerce .fc-order-details-section[data-section-id=gift_message] .fc-gift-options__message {
+  margin: 0;
+  border: 0;
+}

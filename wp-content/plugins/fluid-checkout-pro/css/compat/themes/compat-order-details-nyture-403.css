@@ -1,0 +1,73 @@
+body.theme-nyture .woocommerce-order .fc-order-details-section .woocommerce-customer-details .woocommerce-columns {
+  display: block;
+  width: 100%;
+}
+
+body.theme-nyture .woocommerce-order .fc-order-details-section .woocommerce-customer-details .woocommerce-columns .woocommerce-column.woocommerce-column--1 {
+  width: 48%;
+}
+
+body.theme-nyture .fc-order-details-section[data-section-id=customer_information] .woocommerce-columns--addresses:after {
+  content: none;
+}
+
+body.theme-nyture div.woocommerce .fc-wrapper .woocommerce-customer-details .woocommerce-columns .woocommerce-column .woocommerce-column__title,
+body.theme-nyture div.woocommerce .fc-order-details-section[data-section-id=customer_information] .fc-customer-details__title {
+  font-size: 15px;
+}
+
+body.theme-nyture .fc-order-details-section .fc-section__content .woocommerce-customer-details .addresses .woocommerce-column.col-1 {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 80em) {
+  body.theme-nyture .woocommerce-order .fc-order-overview__wrapper .woocommerce-order-overview {
+    width: 100%;
+  }
+}
+
+@media print, screen and (min-width: 64em) {
+  body.theme-nyture .woocommerce-order .fc-order-details-section .woocommerce-bacs-bank-details .wc-bacs-bank-details {
+    width: 100%;
+    display: block;
+    margin: 0;
+  }
+}
+
+body.theme-nyture div.woocommerce .fc-wrapper .woocommerce-bacs-bank-details .wc-bacs-bank-details-account-name {
+  font-size: 15px;
+}
+
+body.theme-nyture div.woocommerce .fc-section__content .woocommerce-bacs-bank-details strong {
+  text-transform: none;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+body.theme-nyture div.woocommerce .fc-section__content .woocommerce-bacs-bank-details .wc-bacs-bank-details li {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+body.theme-nyture div.woocommerce .fc-section__content p:last-of-type {
+  margin-bottom: 20px;
+}
+@media print, screen and (min-width: 40em), screen and (min-width: 64em) {
+  body.theme-nyture div.woocommerce .fc-section__content p:last-of-type {
+    margin-bottom: 20px;
+  }
+}
+
+body.theme-nyture div.woocommerce .fc-wrapper table.order_details a {
+  color: var(--site-text-color);
+}
+
+body.theme-nyture .woocommerce-order .woocommerce-bacs-bank-details .wc-bacs-bank-details li,
+body.theme-nyture div.woocommerce .fc-wrapper .fc-order-details-section table.order_details,
+body.theme-nyture div.woocommerce .fc-wrapper .fc-order-details-section table th {
+  font-size: 15px;
+}
+
+body.theme-nyture div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details dl dt {
+  margin: 0;
+}

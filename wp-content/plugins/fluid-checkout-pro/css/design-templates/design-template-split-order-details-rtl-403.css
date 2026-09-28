@@ -1,0 +1,48 @@
+:root body.woocommerce-page.has-fc-design-template--split {
+  --fluidcheckout--columns--gap: 70px;
+  --fluidcheckout--section--border-width: 0px;
+  --fluidcheckout--section--border-radius: 5px;
+  --fluidcheckout--section--background-color: transparent;
+  --fluidcheckout--order-summary--border-width: 0px;
+  --fluidcheckout--order-summary--background-color: transparent;
+  --fluidcheckout--order-summary--cell-border-width: 0px;
+  --fluidcheckout--order-summary--cell-border-width--products-list: 0px;
+  --fluidcheckout--order-summary--cell-border-width--products: 0px;
+  --fluidcheckout--order-summary--cell-border-width--summary: 0px;
+  --fluidcheckout--order-summary--cell-border-width--totals-top: 0px;
+  --fluidcheckout--order-summary--cell-border-width--totals-bottom: 0px;
+  --fluidcheckout--option-box--spacing--between-options: 5px;
+  --fluidcheckout--option-box--border-color: transparent;
+  --fluidcheckout--option-box--border-radius: 5px;
+  --fluidcheckout--option-box--background-color: transparent;
+  --fluidcheckout--option-box--border-color--hover: var(--fluidcheckout--color--grey, #7b7575);
+  --fluidcheckout--option-box--background-color--hover: transparent;
+  --fluidcheckout--option-box--label-border-color--hover: var(--fluidcheckout--color--grey, #7b7575);
+  --fluidcheckout--option-box--background-color--checked: transparent;
+  --fluidcheckout--option-box--label-border-color--checked: var(--fluidcheckout--color--black, #000);
+  --fluidcheckout--order-details--section-border-width--alt: 1px;
+}
+
+body.has-fc-design-template--split div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details .product-quantity {
+  position: static;
+  top: auto;
+  right: auto;
+  transform: none;
+  display: block !important;
+  width: 100%;
+  padding: 5px 0;
+  border-radius: 0;
+  background-color: transparent;
+  color: inherit;
+  text-align: right;
+}
+
+body.has-fc-design-template--split div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details tfoot th,
+body.has-fc-design-template--split div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details tfoot td {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+body.has-fc-design-template--split .woocommerce .fc-order-details-section[data-section-id=payment_method] {
+  background-color: var(--fluidcheckout--color--lighter-grey, #f3f3f3);
+}

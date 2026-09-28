@@ -1,0 +1,4 @@
+body.theme-zk-nito.woocommerce-order-received .woocommerce-order .fc-order-received-notice--alert:after {
+  content: "";
+  display: none;
+}

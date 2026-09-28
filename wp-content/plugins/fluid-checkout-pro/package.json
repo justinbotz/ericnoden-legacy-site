@@ -1,0 +1,48 @@
+{
+  "name": "fluid-checkout-pro",
+  "version": "4.0.3",
+  "description": "An even better Fluid Checkout experience for any WooCommerce store. The PRO version provides your store with optimized Cart and Order Received pages, account matching, edit cart items at checkout, and more to come.",
+  "main": "fluid-checkout-pro.php",
+  "scripts": {
+    "version": "git pull && gulp update-ver-release && gulp translate && gulp build && git add -A",
+    "postversion": "git push && git push --tags && gulp copy-plugin-files && gulp pack-plugin-zip",
+    "start": "wp-scripts start --webpack-src-dir=blocks",
+    "build": "wp-scripts build --webpack-src-dir=blocks",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {},
+  "author": "Fluid Checkout",
+  "license": "GPL-3.0",
+  "copyright": "Copyright (c) 2021-2026, Fluid Checkout OÜ",
+  "homepage": "https://fluidcheckout.com/",
+  "bugs": {
+    "url": "https://fluidcheckout.com/support"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^27.0.0",
+    "browser-sync": "^2.27.9",
+    "del": "^5.1.0",
+    "fluidweb-updater": "github:fluidweb-co/fluidweb-updater",
+    "gettext-parser": "^8.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-po2json": "^1.0.0",
+    "gulp-po2mo": "^1.0.3",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-import-json": "^1.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-wp-pot": "^2.5.0",
+    "intl-tel-input": "26.9.2",
+    "load-json-file": "^6.2.0",
+    "node-fetch": "^3.3.2",
+    "number-spinner": "^1.0.3",
+    "sass": "1.77.8",
+    "uglify-js": "^3.15.5"
+  }
+}

@@ -1,0 +1,1 @@
+(()=>{const{registerPlugin:c}=wp.plugins;c("wc-tipping-blocks",{render:()=>{},scope:"woocommerce-checkout"})})();

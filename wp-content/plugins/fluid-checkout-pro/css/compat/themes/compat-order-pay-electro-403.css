@@ -1,0 +1,17 @@
+body.theme-electro .fc-wrapper #payment .payment_methods > .wc_payment_method {
+  padding: 0 !important;
+}
+
+body.theme-electro.woocommerce-order-pay .fc-wrapper .fc-step__substep .fc-step__substep-title {
+  padding-bottom: 3px;
+}
+
+body.theme-electro.woocommerce-order-pay .fc-wrapper .fc-step__substep .fc-step__substep-title:after {
+  display: block;
+  width: 20%;
+}
+
+body.theme-electro.woocommerce-order-pay.has-checkout-layout--multi-step .fc-wrapper [data-step-complete] .fc-step__substep .fc-step__substep-title {
+  padding-bottom: 3px;
+  border-bottom: 0;
+}

@@ -1,0 +1,9 @@
+body.theme-kenta .woocommerce .woocommerce-customer-details .woocommerce-customer-details--email,
+body.theme-kenta .woocommerce .woocommerce-customer-details .woocommerce-customer-details--phone {
+  margin-top: 0;
+}
+
+body.theme-kenta div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details img {
+  margin-top: 0;
+  margin-bottom: 0;
+}

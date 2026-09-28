@@ -1,0 +1,8 @@
+body.theme-wordpress-theme-atomion .fc-wrapper table.cart tbody tr.cart-item, body.theme-wordpress-theme-atomion .fc-wrapper table.cart tbody tr.cart-item:hover {
+  color: inherit;
+}
+
+body.theme-wordpress-theme-atomion div.woocommerce #order_review table.woocommerce-checkout-review-order-table .order-total th,
+body.theme-wordpress-theme-atomion div.woocommerce #order_review table.woocommerce-checkout-review-order-table .order-total td {
+  border-bottom: 0 !important;
+}

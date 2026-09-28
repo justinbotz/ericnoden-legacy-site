@@ -1,0 +1,21 @@
+{
+	"browserSyncOptions": {
+		"proxy": "fluidcheckout.local",
+		"notify": false
+	},
+
+	"pluginZipPath": "/Users/your-username/Downloads",
+
+	"translationAPIs": [
+		{
+			"type": "deepl",
+			"url": "https://api.deepl.com/v2/translate",
+			"key": "*****"
+		},
+		{
+			"type": "googleTranslate",
+			"url": "https://translation.googleapis.com/language/translate/v2",
+			"key": "*****"
+		}
+	]
+}

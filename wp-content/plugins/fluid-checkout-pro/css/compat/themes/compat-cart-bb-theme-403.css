@@ -1,0 +1,12 @@
+body.theme-bb-theme .select2-container--default .select2-selection--single {
+  border-color: var(--fluidcheckout--field--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8));
+}
+
+body.theme-bb-theme .fc-wrapper .cross-sells .product-details .product-add-to-cart .button.loading {
+  position: relative;
+}
+
+body.theme-bb-theme .fc-wrapper .cross-sells .product-details .product-add-to-cart .button.loading:after {
+  top: 0.45em;
+  right: 0.9em;
+}

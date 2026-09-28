@@ -1,0 +1,24 @@
+@media (min-width: 1025px) {
+  body.theme-qi #qodef-woo-page.qodef--checkout #order_review {
+    width: 100%;
+  }
+}
+
+body.theme-qi #qodef-woo-page.qodef--checkout #order_review table {
+  border: 0;
+}
+
+body.theme-qi #qodef-woo-page.qodef--checkout #order_review table tr td,
+body.theme-qi #qodef-woo-page.qodef--checkout #order_review table tr th {
+  padding: 10px 20px;
+  border-left: 0;
+  border-right: 0;
+}
+
+body.theme-qi.woocommerce-page div.woocommerce .shop_table th {
+  font-size: 15px;
+}
+
+body.theme-qi #qodef-woo-page .fc-checkout-order-review__actions-mobile .fc-checkout-order-review__close-order-summary {
+  line-height: 1;
+}

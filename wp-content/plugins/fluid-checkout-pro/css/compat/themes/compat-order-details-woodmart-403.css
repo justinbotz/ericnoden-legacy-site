@@ -1,0 +1,11 @@
+body.theme-woodmart .woocommerce .fc-order-details__actions .button {
+  display: inline-flex;
+}
+
+body.theme-woodmart .woocommerce .woocommerce-order-overview.order_details > li strong {
+  margin-top: 0;
+}
+
+body.theme-woodmart div.woocommerce .fc-wrapper .woocommerce-order-details .responsive-table {
+  overflow: unset;
+}

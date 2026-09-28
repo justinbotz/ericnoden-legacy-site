@@ -1,0 +1,12 @@
+body.theme-Divi #left-area .woocommerce .woocommerce-bacs-bank-details .wc-bacs-bank-details {
+  padding: 0;
+}
+
+body.theme-Divi .woocommerce .fc-wrapper .fc-order-details-section[data-section-id=payment_method] p:last-of-type {
+  padding-bottom: 1em;
+}
+
+body.theme-Divi #left-area .woocommerce .fc-wrapper .fc-order-status-bar {
+  list-style-type: none;
+  padding: 0;
+}

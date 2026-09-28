@@ -1,0 +1,40 @@
+body.theme-diza .woocommerce .woocommerce-customer-details .woocommerce-customer-details--email {
+  padding-left: 0;
+}
+
+body.theme-diza .woocommerce .woocommerce-customer-details .woocommerce-customer-details--email:before {
+  content: none;
+}
+
+body.theme-diza .woocommerce .fc-order-details-section[data-section-id=customer_information] .fc-customer-details__title,
+body.theme-diza .woocommerce .fc-order-details-section[data-section-id=customer_information] address {
+  padding: 0;
+}
+
+body.theme-diza .woocommerce .fc-order-details-section[data-section-id=customer_information] .fc-customer-details__title {
+  line-height: 26px;
+}
+
+body.theme-diza .woocommerce .fc-order-details-section[data-section-id=customer_information] .woocommerce-column {
+  border: 0;
+}
+
+body.theme-diza .fc-gift-options__message .fc-gift-options__message-text {
+  border-left: 0 !important;
+}
+
+body.theme-diza .woocommerce .fc-wrapper .fc-subsection-title {
+  border: 0;
+  background: none;
+}
+
+body.theme-diza div.woocommerce .woocommerce-order .woocommerce-order-details .product-total,
+body.theme-diza div.woocommerce .woocommerce-order .woocommerce-order-details .tax_label {
+  text-align: right !important;
+}
+
+body.theme-diza div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details .product-total,
+body.theme-diza div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details tfoot td,
+body.theme-diza div.woocommerce .fc-wrapper .woocommerce-order-details table.order_details.woocommerce-table--order-summary tbody td {
+  line-height: 1 !important;
+}

@@ -1,0 +1,65 @@
+body.theme-thegem .fc-wrapper button[name=calc_shipping] {
+  display: inline-block;
+  min-height: var(--fluidcheckout--button--height, 44px) !important;
+  height: var(--fluidcheckout--button--height, 44px) !important;
+  line-height: calc(var(--fluidcheckout--button--height, 44px) - var(--fluidcheckout--button--border-width, 1px) * 2) !important;
+  padding: 0 20px !important;
+  border: var(--fluidcheckout--button--border-style, solid) var(--fluidcheckout--button--border-width, 1px) transparent !important;
+  border-radius: var(--fluidcheckout--button--border-radius, 0) !important;
+  font-weight: var(--fluidcheckout--button--font-weight, normal) !important;
+  font-size: var(--fluidcheckout--button--font-size, inherit) !important;
+  text-decoration: none !important;
+  box-shadow: 0 3px var(--fluidcheckout--button--box-shadow-blur-radius, 8px) var(--fluidcheckout--button--box-shadow-color, transparent) !important;
+  cursor: pointer !important;
+  transition: all 0.3s !important;
+}
+
+body.theme-thegem .fc-wrapper button[name=calc_shipping] {
+  border-color: var(--fluidcheckout--button--secondary--border-color, var(--fluidcheckout--color--lighter-grey, #f3f3f3)) !important;
+  background-color: var(--fluidcheckout--button--secondary--background-color, var(--fluidcheckout--color--lighter-grey, #f3f3f3)) !important;
+  color: var(--fluidcheckout--button--secondary--text-color, var(--fluidcheckout--color--black, #000)) !important;
+}
+body.theme-thegem .fc-wrapper button[name=calc_shipping]:not([disabled]):not(.disabled):hover, body.theme-thegem .fc-wrapper button[name=calc_shipping]:not([disabled]):not(.disabled):focus, body.theme-thegem .fc-wrapper button[name=calc_shipping]:not([disabled]):not(.disabled):active {
+  border-color: var(--fluidcheckout--button--secondary--border-color--hover, var(--fluidcheckout--color--light-grey, #d8d8d8)) !important;
+  background-color: var(--fluidcheckout--button--secondary--background-color--hover, var(--fluidcheckout--color--light-grey, #d8d8d8)) !important;
+  color: var(--fluidcheckout--button--secondary--text-color--hover, var(--fluidcheckout--color--black, #000)) !important;
+}
+
+body.theme-thegem .fc-wrapper table.cart thead {
+  display: table-header-group !important;
+}
+
+body.theme-thegem .fc-wrapper table.cart tbody tr:nth-child(even) td {
+  background-color: transparent;
+}
+
+body.theme-thegem .fc-wrapper table.cart td .product-total {
+  min-width: 0;
+}
+
+body.theme-thegem:not(.woocommerce-cart-layout-modern) .woocommerce-shipping-calculator {
+  position: static;
+}
+
+body.theme-thegem.woocommerce-cart-layout-classic .fc-wrapper .woocommerce-shipping-calculator .shipping-calculator-form {
+  transition: all 0s !important;
+}
+
+body.theme-thegem.woocommerce-cart-layout-classic .fc-wrapper .woocommerce-shipping-calculator .shipping-calculator-form.is-collapsed {
+  margin: 0 !important;
+}
+
+body.theme-thegem.woocommerce-cart-layout-classic .fc-wrapper .woocommerce-shipping-calculator .shipping-calculator-form.is-expanded {
+  overflow: visible !important;
+}
+
+body.theme-thegem div.woocommerce form .form-row {
+  width: auto;
+  margin-top: 0;
+  padding: 0;
+}
+
+body.theme-thegem #page div.woocommerce form .form-row .select2-container .select2-selection__arrow:before {
+  top: 0;
+  margin-top: 0;
+}

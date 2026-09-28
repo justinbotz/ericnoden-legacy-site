@@ -1,0 +1,12 @@
+.fc-wrapper .wc-proceed-to-checkout .wc-ppcp-cart-payments__container:last-child {
+  margin-bottom: 20px;
+}
+
+.fc-wrapper .wc-proceed-to-checkout .wc-ppcp-cart-payments__container .wc-ppcp-cart-payment__methods {
+  margin: 0;
+}
+
+.fc-wrapper .wc-proceed-to-checkout .wc-ppcp-cart-payments__container .wc-ppcp-cart-payment__methods li {
+  margin-top: 0;
+  margin-bottom: 10px;
+}

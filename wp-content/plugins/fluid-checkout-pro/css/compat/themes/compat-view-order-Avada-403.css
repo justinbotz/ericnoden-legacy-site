@@ -1,0 +1,10 @@
+body.theme-Avada .fusion-header-wrapper {
+  z-index: 2000;
+}
+
+@media (max-width: 749px) {
+  body.theme-Avada.woocommerce-view-order .woocommerce-MyAccount-content {
+    padding: 0;
+    border: 0;
+  }
+}

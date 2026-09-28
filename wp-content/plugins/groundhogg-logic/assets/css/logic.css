@@ -1,0 +1,71 @@
+.step .step-labels .logic-tag .dashicons {
+  color: #6c19ad !important;
+}
+
+.logic-display {
+  display: none;
+  position: absolute;
+  background-color: #6c19ad;
+  padding: 4px 8px;
+  border-radius: 4px;
+  right: 0;
+  top: 0;
+  width: max-content;
+  max-width: 200px;
+  color: white;
+  font-size: 12px;
+}
+.logic-display a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.if-condition-wrap:hover .logic-display,
+.logic-tag:hover .logic-display {
+  display: block;
+  z-index: 99;
+}
+
+.logic-toggle {
+  padding: 7px;
+}
+
+#logic-include-filters {
+  padding: 20px;
+  border: 1px solid #6c19ad;
+  border-radius: 10px;
+  position: relative;
+}
+#logic-include-filters::after {
+  content: "Matches";
+  position: absolute;
+  transform: translateY(-50%);
+  background-color: #6c19ad;
+  left: 20px;
+  top: 0;
+  padding: 3px 8px;
+  color: white;
+  border-radius: 5px;
+  width: max-content;
+}
+
+#logic-exclude-filters {
+  padding: 20px;
+  border: 1px solid #6c19ad;
+  border-radius: 10px;
+  position: relative;
+}
+#logic-exclude-filters::after {
+  content: "Does not match";
+  position: absolute;
+  transform: translateY(-50%);
+  background-color: #6c19ad;
+  left: 20px;
+  top: 0;
+  padding: 3px 8px;
+  color: white;
+  border-radius: 5px;
+  width: max-content;
+}
+
+/*# sourceMappingURL=logic.css.map */

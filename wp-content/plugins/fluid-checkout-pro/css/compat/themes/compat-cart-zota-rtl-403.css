@@ -1,0 +1,75 @@
+@media (min-width: 1000px) {
+  body.theme-zota.has-fc-sidebar.has-fc-design-template--split .fc-content > .container {
+    position: relative;
+  }
+}
+
+@media (min-width: 1000px) {
+  body.theme-zota.has-fc-sidebar.has-fc-design-template--split .fc-content > .container::after {
+    z-index: 2;
+    content: "";
+    visibility: visible;
+    position: absolute;
+    display: block;
+    clear: both;
+    height: 100%;
+    width: 100vw;
+    top: 0;
+    right: 60%;
+    background-color: var(--fluidcheckout--order-summary--background-color, var(--fluidcheckout--color--white, #fff));
+    border-right: 1px solid var(--fluidcheckout--border-color, var(--fluidcheckout--color--light-grey, #d8d8d8));
+  }
+}
+
+body.theme-zota form.woocommerce-checkout .fc-wrapper #order_review table.woocommerce-checkout-review-order-table tfoot th {
+  padding-right: 20px;
+}
+
+body.theme-zota .woocommerce table.shop_table > thead > tr > th,
+body.theme-zota .woocommerce table.shop_table > thead > tr > td,
+body.theme-zota .woocommerce table.shop_table > tbody > tr > td,
+body.theme-zota .woocommerce table.shop_table > tbody > tr > th,
+body.theme-zota .woocommerce table.shop_table > tfoot > tr > td,
+body.theme-zota .woocommerce table.shop_table > tfoot > tr > th {
+  line-height: inherit !important;
+}
+
+body.theme-zota div.woocommerce form .form-row .input-checkbox {
+  display: none;
+}
+
+body.theme-zota div.woocommerce form .form-row .input-text {
+  margin-bottom: 0 !important;
+}
+
+body.theme-zota div.woocommerce form .form-row textarea {
+  min-height: 100px !important;
+  padding: 13px 15px !important;
+}
+@media (max-width: 480px) {
+  body.theme-zota div.woocommerce form .form-row textarea {
+    padding: 8px 10px !important;
+  }
+}
+
+body.theme-zota div.woocommerce form .form-row .woocommerce-form__input + span {
+  display: inline;
+}
+
+body.theme-zota div.woocommerce form .form-row .select2-container {
+  margin-bottom: 0;
+}
+
+@media (min-width: 1000px) {
+  body.theme-zota.has-fc-sidebar.has-fc-design-template--split .fc-content::after {
+    content: none;
+  }
+}
+
+body.theme-zota .fc-wrapper .cross-sells .product-details .woocommerce-Price-amount {
+  font-weight: 600;
+}
+
+body.theme-zota .fc-wrapper .cross-sells .product-details .product-add-to-cart .button.loading {
+  position: relative;
+}

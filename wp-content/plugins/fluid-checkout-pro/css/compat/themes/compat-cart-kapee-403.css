@@ -1,0 +1,31 @@
+body.theme-kapee div.woocommerce form .form-row .select2-container .select2-selection__arrow b {
+  margin-top: 0;
+}
+
+body.theme-kapee .woocommerce-cart-wrapper {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+body.theme-kapee .fc-wrapper .cross-sells .product-details .product-price {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--site-link-color);
+}
+
+body.theme-kapee .fc-wrapper .cross-sells .product-details .product-price ins {
+  padding: 0;
+  background-color: transparent;
+}
+
+body.theme-kapee .fc-wrapper .cross-sells .product-details .product-price del {
+  font-weight: normal;
+}
+
+body.theme-kapee .fc-wrapper form.woocommerce-cart-form {
+  max-width: 100%;
+}
+
+body.theme-kapee .fc-wrapper .wc-proceed-to-checkout .checkout-button {
+  position: static !important;
+}

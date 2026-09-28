@@ -1,0 +1,124 @@
+body.has-fc-woocommerce-order-delivery-calendar-inline .delivery-date-fields-wrapper {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker {
+  margin-bottom: 20px;
+  padding: 0;
+  width: 100%;
+  border: solid 1px var(--fluidcheckout--border-color--light, var(--fluidcheckout--color--lighter-grey, #f3f3f3));
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: var(--fluidcheckout--color--white, #fff);
+}
+
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table {
+  width: 100%;
+}
+
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr th {
+  height: 44px;
+  border-radius: 0;
+  border: solid 1px var(--fluidcheckout--color--white, #fff);
+}
+
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker th.prev,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker th.next {
+  font-size: 1px;
+  color: transparent;
+}
+
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker th.prev:after {
+  display: inline-block;
+  font-family: "fluid-checkout-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
+  content: "\e80c";
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  color: var(--fluidcheckout--color--grey, #7b7575);
+}
+
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker th.next:after {
+  display: inline-block;
+  font-family: "fluid-checkout-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
+  content: "\e80a";
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  color: var(--fluidcheckout--color--grey, #7b7575);
+}
+
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker th.dow {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.disabled.disabled,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.disabled.disabled:hover {
+  border: 0;
+  background-color: var(--fluidcheckout--color--lighter-grey, #f3f3f3);
+  text-decoration: line-through;
+  -webkit-text-decoration-color: var(--fluidcheckout--color--dark-grey, #535156) !important;
+  text-decoration-color: var(--fluidcheckout--color--dark-grey, #535156) !important;
+}
+
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.disabled.disabled.active,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.disabled.disabled.active:hover,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.disabled.disabled.active.highlighted:active,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.disabled.disabled.active.highlighted:active:hover {
+  background-color: var(--fluidcheckout--color--error, #cc1818);
+  border-color: var(--fluidcheckout--color--error, #cc1818);
+}
+
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.active:active,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.active.highlighted:active,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.active:hover,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.active.highlighted:hover,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.active.active,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.active.highlighted.active,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.active:active:hover,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.active.highlighted:active:hover,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.active.active:hover,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.active.highlighted.active:hover,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.active:active:focus,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.active.highlighted:active:focus,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.active.active:focus,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.active.highlighted.active:focus,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.active:active.focus,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.active.highlighted:active.focus,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.active.active.focus,
+body.has-fc-woocommerce-order-delivery-calendar-inline .datepicker table tr td.active.highlighted.active.focus {
+  position: relative;
+  background-color: var(--fluidcheckout--color--success, #007a3d);
+  border-color: var(--fluidcheckout--color--success, #007a3d);
+  font-weight: bold;
+  box-shadow: 0 3px 8px var(--fluidcheckout--shadow-color--dark, var(--fluidcheckout--color--lighter-grey, #f3f3f3));
+}
+
+div.woocommerce .woocommerce-invalid.woocommerce-invalid-delivery-date .fc-inline-error.invalid-delivery-date {
+  display: block;
+}
+
+body.has-fc-woocommerce-order-delivery-calendar-inline div.woocommerce form #delivery_date_field.form-row.woocommerce-validated:not([class*=woocommerce-invalid]) .woocommerce-input-wrapper:after {
+  left: 40px;
+}

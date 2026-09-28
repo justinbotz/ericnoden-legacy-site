@@ -1,0 +1,75 @@
+[class^="sricon-"], [class*=" sricon-"] {
+  font-family: 'sricons';
+  font-style: normal;
+  font-weight: normal;
+
+  /* fix buttons height */
+  line-height: 1em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+}
+
+.sricon-amazonmusic { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-apple-podcasts { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-castbox { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-castro { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-deezer { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-google-podcast { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-iheartradio { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-overcast { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-pandora { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-playerfm { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-pocketcasts { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-podcastaddict { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-podcastindex { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-podchaser { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-rss-feed { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-spotify { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-stitcher { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-tunein { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-Sonaar-symbol { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-info { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-15s { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-30s { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-svg-video { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-filedownload { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-cash2 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-play-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-play { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-layers { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-pause { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-download { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-radio2 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-micro { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-cash { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-dj { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-audiostream { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-musiccreation { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-mute { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-nocash { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-close-circle { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-forward { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-back { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-volume { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-list { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-down-arrow { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-share { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-3-dots-h { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-close { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-3-dots-v { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-up-arrow { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-repeat { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-repeat-track { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-shuffle { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-shuffle-off { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-bookmark_add { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-bookmark_remove { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-minus { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-plus { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-star_add { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-star_remove { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-heart-fill { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-heart { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-x-twitter { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }
+.sricon-spinner { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = ' '); }

@@ -1,0 +1,104 @@
+.wp-block-wpslash-tipping-checkout-actions-block.wp-block-wpslash-tipping-checkout-actions-block
+{
+    overflow:hidden;
+}
+
+.wpslash-tip-wrapper
+{   
+
+    display: flex;
+    width: 100%;
+    float: left;
+    flex: 1;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 10px #bbb;
+}
+.wpslash-tipping-form-wrapper
+{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.wpslash-tipping-form-wrapper.wpslash-tipping-form-wrapper.hidden{
+    display:none;
+}
+a.wpslash_tip_remove_btn
+{
+        margin-left: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+input.wpslash-tip-input
+{
+	all: unset;
+    width: 70%;
+    text-align: center;
+    border: 1px solid #00000036;
+    background: white;
+    border-radius: 5px;
+    line-height: 2rem;
+    float: left;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.wpslash-percentage-tip-buttons
+{
+	    margin-top: 3px;
+    width: 100%;
+        min-width: 100%;
+    float: left;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+        padding: 10px;
+}
+.wpslash-tip-submit
+{
+    cursor:pointer;
+}
+
+.wpslash-tip-title
+{
+    font-weight: bold;
+    max-width: 100%;
+    display: flex;
+    margin-bottom: 3px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    overflow: hidden;
+    width: 100%;
+    flex: 1;
+    box-shadow: none;
+    border-bottom: 2px solid #00000038;
+
+}
+a.wpslash-tip-percentage-btn.button
+{
+    margin:3px;
+    cursor:pointer;
+    text-wrap:'wrap';
+}
+body .wpslash-tip-input.input-text {
+    margin-bottom:0px;
+}
+
+.wpslash-tip-submit.loading
+{
+    opacity:0.4;
+    pointer-events:none;
+    cursor: pointer;
+}
+.wpslash-tip-percentage-btn.loading
+{
+    opacity:0.4;
+    pointer-events:none;
+    cursor: pointer;
+}

@@ -1,0 +1,5 @@
+body.theme-zk-nito .woocommerce .fc-wrapper .fc-section-title:after,
+body.theme-zk-nito .woocommerce .fc-wrapper .fc-subsection-title:after {
+  content: "";
+  display: none;
+}
